@@ -1,0 +1,31 @@
+@media screen and (min-width: 495px) {
+    .title {
+        font-size: 40px;
+    }
+
+    header h4 {
+        font-size: 15px;
+    }
+
+    .logo-image {
+        height: 60px;
+        width: 60px;
+    }
+    .section-main-image {
+        max-height: 200px;
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logo-image {
+        height: 70px;
+        width: 70px;
+    }
+    .section-main-image {
+        max-height: 300px;
+        margin-top: -40px;
+        margin-bottom: -40px;
+    }
+}

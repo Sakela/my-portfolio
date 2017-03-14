@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Portfolio</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+      <link href="css/bootstrap.min.css" rel="stylesheet" />
+      <link href="css/style.css" rel="stylesheet" />
+      <link href="css/responsive.css" rel="stylesheet"/>
+  </head>
+  <body>
+      <div class="container">
+          <header class="row">
+              <div class="col-xs-4 col-md-6">
+                  <img src="images/udacity-logo.png" class="img-responsive logo-image" />
+              </div>
+              <div class="col-xs-8 col-md-6 text-right text-uppercase">
+                  <h1 class="title text-light">Igor Sakelari</h1>
+                  <h4>Front-end Ninja</h4>
+              </div>
+          </header>
+          <div class="row">
+              <div class="col-md-12">
+                  <hr>
+              </div>
+          </div>
+          <section class="row">
+              <div class="col-md-12">
+                  <img src="images/HTML5CSS3Logos.svg" class="img-responsive section-main-image center-block" />
+              </div>
+          </section>
+          <div class="row">
+              <div class="col-md-12">
+                  <h2 class="text-mute">Featured Work</h2>
+              </div>
+          </div>
+          <section class="row text-center works-section">
+              <article class="col-md-4">
+                  <img src="images/animal-card.png" alt="Animal Card" class="img-responsive" data-toggle="modal" data-target="#project1" />
+                  <h3 class="text-uppercase">Trading Cards</h3>
+                  <p><a href="#"></a>Link 1</p>
+              </article>
+              <article class="col-md-4">
+                  <img src="images/cake-recipe.png" alt="Recipe" class="img-responsive" />
+                  <h3 class="text-uppercase">Ice Cream Recipe</h3>
+                  <p><a href="#"></a>Link 2</p>
+              </article>
+              <article class="col-md-4">
+                  <img src="images/flipboard.png" alt="Flipboard Homepage" class="img-responsive" />
+                  <h3 class="text-uppercase">Flipboard</h3>
+                  <p><a href="https://github.com/Sakela/MyFlipboard">https://github.com/Sakela/MyFlipboard</a></p>
+              </article>
+          </section>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title" id="myModalLabel">Trading Cards</h4>
+                  </div>
+                  <div class="modal-body">
+                      <img class="img-responsive" src="images/animal-card.png">
+                      This was my first project in this class. I learned a lot about HTML and CSS.
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>
