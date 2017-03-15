@@ -42,7 +42,7 @@ body {
 }
 
 header h4 {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .logo-image {
@@ -60,8 +60,8 @@ header h4 {
 
 .section-main-image {
     max-height: 100px;
-    margin-top: -20px;
-    margin-bottom: -20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 hr {

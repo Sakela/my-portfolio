@@ -4,17 +4,17 @@
     }
 
     header h4 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .logo-image {
         height: 60px;
         width: 60px;
     }
+
     .section-main-image {
-        max-height: 200px;
-        margin-top: -30px;
-        margin-bottom: -30px;
+        max-height: 150px;
+
     }
 }
 
@@ -23,9 +23,13 @@
         height: 70px;
         width: 70px;
     }
+
     .section-main-image {
-        max-height: 300px;
-        margin-top: -40px;
-        margin-bottom: -40px;
+        max-height: 200px;
+
+    }
+
+    header h4 {
+        font-size: 20px;
     }
 }

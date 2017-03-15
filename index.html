@@ -9,14 +9,14 @@
       <script src="js/bootstrap.min.js"></script>
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
       <link href="css/bootstrap.min.css" rel="stylesheet" />
-      <link href="css/style.css" rel="stylesheet" />
-      <link href="css/responsive.css" rel="stylesheet"/>
+      <link href="dist/css/styles.css" rel="stylesheet" />
+
   </head>
   <body>
       <div class="container">
           <header class="row">
               <div class="col-xs-4 col-md-6">
-                  <img src="images/udacity-logo.png" class="img-responsive logo-image" />
+                  <img src="images/udacity.svg" class="img-responsive logo-image" />
               </div>
               <div class="col-xs-8 col-md-6 text-right text-uppercase">
                   <h1 class="title text-light">Igor Sakelari</h1>
@@ -30,7 +30,7 @@
           </div>
           <section class="row">
               <div class="col-md-12">
-                  <img src="images/HTML5CSS3Logos.svg" class="img-responsive section-main-image center-block" />
+                  <img src="images/cover_logo.svg" class="img-responsive section-main-image center-block" />
               </div>
           </section>
           <div class="row">
@@ -40,17 +40,17 @@
           </div>
           <section class="row text-center works-section">
               <article class="col-md-4">
-                  <img src="images/animal-card.png" alt="Animal Card" class="img-responsive" data-toggle="modal" data-target="#project1" />
+                  <img src="images/animal-card.jpg" alt="Animal Card" class="img-responsive" data-toggle="modal" data-target="#project1" />
                   <h3 class="text-uppercase">Trading Cards</h3>
-                  <p><a href="#"></a>Link 1</p>
+                  <p><a href="https://github.com/Sakela/animal-card">https://github.com/Sakela/animal-card</a></p>
               </article>
               <article class="col-md-4">
-                  <img src="images/cake-recipe.png" alt="Recipe" class="img-responsive" />
+                  <img src="images/ice-cream-recipe.jpg" alt="Recipe" class="img-responsive" data-toggle="modal" data-target="#project2" />
                   <h3 class="text-uppercase">Ice Cream Recipe</h3>
-                  <p><a href="#"></a>Link 2</p>
+                  <p><a href="https://github.com/Sakela/ice-cream-recipe">https://github.com/Sakela/ice-cream-recipe</a></p>
               </article>
               <article class="col-md-4">
-                  <img src="images/flipboard.png" alt="Flipboard Homepage" class="img-responsive" />
+                  <img src="images/flipboard.jpg" alt="Flipboard Homepage" class="img-responsive" data-toggle="modal" data-target="#project3" />
                   <h3 class="text-uppercase">Flipboard</h3>
                   <p><a href="https://github.com/Sakela/MyFlipboard">https://github.com/Sakela/MyFlipboard</a></p>
               </article>
@@ -65,8 +65,42 @@
                       <h4 class="modal-title" id="myModalLabel">Trading Cards</h4>
                   </div>
                   <div class="modal-body">
-                      <img class="img-responsive" src="images/animal-card.png">
+                      <img class="img-responsive" src="images/animal-card.jpg">
                       This was my first project in this class. I learned a lot about HTML and CSS.
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title" id="myModalLabel">Ice Cream Recipe</h4>
+                  </div>
+                  <div class="modal-body">
+                      <img class="img-responsive" src="images/ice-cream-recipe.jpg">
+                      One of the quiz projects with Udacity.
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title" id="myModalLabel">Flipboard</h4>
+                  </div>
+                  <div class="modal-body">
+                      <img class="img-responsive" src="images/flipboard.jpg">
+                      One of my earliest projects done with CodeAcademy. I have used bootstrap and carousel technique on it.
                   </div>
                   <div class="modal-footer">
                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

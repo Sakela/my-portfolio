@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
 		concat_css: {
 			dist: {
-                src: ["css/*.css"],
+                src: ["css/style.css" , "css/responsive.css"],
                 dest: "dist/css/styles.css"
 			}
 		}
