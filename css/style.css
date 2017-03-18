@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-body {
+h1,h3,h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #2d3c49;
@@ -28,6 +28,11 @@ body {
 
 .text-mute {
     color: #7d97ad;
+}
+
+.line-thick {
+    background-color: #7d97ad;
+    height: 3px;
 }
 
 /*
@@ -59,15 +64,12 @@ header h4 {
  */
 
 .section-main-image {
-    max-height: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    max-height: 150px;
+    width: 100vw;
 }
 
 hr {
-    color: #7d97ad;
     background-color: #7d97ad;
-    height: 3px;
 }
 
 a {
@@ -76,4 +78,9 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+.border-highlight {
+    border: 1px solid #7d97ad;
+    border-radius: 10px;
 }

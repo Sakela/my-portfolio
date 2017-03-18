@@ -1,10 +1,10 @@
 @media screen and (min-width: 495px) {
     .title {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     header h4 {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .logo-image {
@@ -13,8 +13,7 @@
     }
 
     .section-main-image {
-        max-height: 150px;
-
+        max-height: 200px;
     }
 }
 
@@ -25,8 +24,11 @@
     }
 
     .section-main-image {
-        max-height: 200px;
+        max-height: 250px;
+    }
 
+    .title {
+        font-size: 40px;
     }
 
     header h4 {
