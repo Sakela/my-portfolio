@@ -5,7 +5,7 @@
 
 /* brandico */
 [class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
+  font-family: "brandico", sans-serif;
 }
 
 * {
@@ -15,11 +15,20 @@
     box-sizing: border-box;
 }
 
-h1,h3,h4 {
-    font-family: 'Lato', sans-serif;
+h1,
+h3,
+h4 {
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     color: #2d3c49;
 }
+
+.footer-icons {
+    border: 1px solid #7d97ad;
+    height: 30px;
+    width: auto;
+}
+
 
 /*
  *
@@ -27,6 +36,7 @@ h1,h3,h4 {
  *
  *
  */
+
 
 .text-light {
     font-weight: 200;
@@ -41,12 +51,14 @@ h1,h3,h4 {
     height: 3px;
 }
 
+
 /*
  *
  Header
  *
  *
  */
+
 
 .title {
     font-size: 25px;
@@ -62,12 +74,14 @@ header h4 {
     margin-top: 20px;
 }
 
+
 /*
  *
  Main
  *
  *
  */
+
 
 .section-main-image {
     max-height: 150px;
