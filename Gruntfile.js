@@ -6,8 +6,8 @@ module.exports = function(grunt) {
     grunt.initConfig({
 		concat_css: {
 			dist: {
-                src: ["css/style.css" , "css/responsive.css"],
-                dest: "dist/css/styles.css"
+                src: ["src/css/style.css" , "src/css/responsive.css"],
+                dest: "src/css/styles.css"
 			}
 		},
         imagemin: {                          // Task
@@ -18,10 +18,10 @@ module.exports = function(grunt) {
               use: [mozjpeg()]
             },
             files: {                         // Dictionary of files
-              'dist/animal-card-small.jpg': 'images/animal-card.jpg',
-              'dist/ice-cream-recipe-small.jpg': 'images/ice-cream-recipe.jpg',
-              'dist/flipboard-small.jpg': 'images/flipboard.jpg',
-              'dist/cover-small.jpg' : 'images/cover.jpg' // 'destination': 'source'
+              'img/animal-card.jpg': 'src/images/animal-card.jpg',
+              'img/ice-cream-recipe.jpg': 'src/images/ice-cream-recipe.jpg',
+              'img/flipboard.jpg': 'src/images/flipboard.jpg',
+              'img/cover.jpg' : 'src/images/cover.jpg' // 'destination': 'source'
             }
           }
         },
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
             },
             target: {
                 files: {
-                    'css/styles-minify.css': 'dist/css/styles.css'
+                    'css/styles.min.css': 'src/css/styles.css'
                 }
             }
         },
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
                 collapseWhitespace: true
               },
               files: {                                   // Dictionary of files
-                'dist/index.html': 'index.html'    // 'destination': 'source'
+                'index.html': 'src/index.html'    // 'destination': 'source'
               }
             }
           }

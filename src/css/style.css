@@ -1,0 +1,93 @@
+* {
+   /*outline: 1px solid red !important;*/
+}
+
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,h3,h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #2d3c49;
+}
+
+/*
+ *
+ Common
+ *
+ *
+ */
+
+.text-light {
+    font-weight: 200;
+}
+
+.text-mute {
+    color: #7d97ad;
+}
+
+.line-thick {
+    background-color: #7d97ad;
+    height: 3px;
+}
+
+/*
+ *
+ Header
+ *
+ *
+ */
+
+.title {
+    font-size: 25px;
+}
+
+header h4 {
+    font-size: 15px;
+}
+
+.logo-image {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+/*
+ *
+ Main
+ *
+ *
+ */
+
+.section-main-image {
+    max-height: 150px;
+    width: 100vw;
+}
+
+hr {
+    background-color: #7d97ad;
+}
+
+a {
+    color: #7d97ad;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.border-highlight {
+    border: 1px solid #7d97ad;
+    border-radius: 10px;
+}
