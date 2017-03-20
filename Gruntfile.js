@@ -24,10 +24,34 @@ module.exports = function(grunt) {
               'dist/cover-small.jpg' : 'images/cover.jpg' // 'destination': 'source'
             }
           }
-        }
+        },
+        cssmin: {
+            options: {
+                mergeIntoShorthands: false,
+                roundingPrecision: -1
+            },
+            target: {
+                files: {
+                    'css/styles-minify.css': 'dist/css/styles.css'
+                }
+            }
+        },
+        htmlmin: {                                     // Task
+            dist: {                                      // Target
+              options: {                                 // Target options
+                removeComments: true,
+                collapseWhitespace: true
+              },
+              files: {                                   // Dictionary of files
+                'dist/index.html': 'index.html'    // 'destination': 'source'
+              }
+            }
+          }
 	});
 
     grunt.registerTask('default', [
+        'htmlmin',
+        'cssmin',
 		'concat_css',
         'imagemin'
 	]);

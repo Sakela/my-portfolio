@@ -23,6 +23,8 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-concat-css": "^0.3.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-htmlmin": "^2.3.0",
     "grunt-contrib-imagemin": "^1.0.1",
     "grunt-sass": "^2.0.0",
     "load-grunt-tasks": "^3.5.2"
