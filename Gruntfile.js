@@ -11,20 +11,20 @@ module.exports = function(grunt) {
 			}
 		},
         imagemin: {                          // Task
-          static: {                          // Target
-            options: {                       // Target options
-              optimizationLevel: 3,
-              svgoPlugins: [{ removeViewBox: false }],
-              use: [mozjpeg()]
-            },
+            static: {                          // Target
+                options: {                       // Target options
+                    optimizationLevel: 3,
+                    svgoPlugins: [{ removeViewBox: false }],
+                    use: [mozjpeg()]
+                },
             files: {                         // Dictionary of files
-              'img/animal-card.jpg': 'src/images/animal-card.jpg',
-              'img/ice-cream-recipe.jpg': 'src/images/ice-cream-recipe.jpg',
-              'img/flipboard.jpg': 'src/images/flipboard.jpg',
-              'img/cover.jpg' : 'src/images/cover.jpg' // 'destination': 'source'
+                'img/animal-card.jpg': 'src/images/animal-card.jpg',
+                'img/ice-cream-recipe.jpg': 'src/images/ice-cream-recipe.jpg',
+                'img/flipboard.jpg': 'src/images/flipboard.jpg',
+                'img/cover.jpg' : 'src/images/cover.jpg'
+                }
             }
-          }
-        },
+            },
         cssmin: {
             options: {
                 mergeIntoShorthands: false,
@@ -38,15 +38,15 @@ module.exports = function(grunt) {
         },
         htmlmin: {                                     // Task
             dist: {                                      // Target
-              options: {                                 // Target options
-                removeComments: true,
-                collapseWhitespace: true
-              },
-              files: {                                   // Dictionary of files
-                'index.html': 'src/index.html'    // 'destination': 'source'
-              }
+                options: {                                 // Target options
+                    removeComments: true,
+                    collapseWhitespace: true
+                },
+                files: {
+                    'index.html': 'src/index.html'
+                }
             }
-          }
+         }
 	});
 
     grunt.registerTask('default', [
